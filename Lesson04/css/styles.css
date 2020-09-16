@@ -46,6 +46,7 @@ a:hover {
 h1 {
     font-size: 60px;
     font-weight: 450;
+    text-shadow: 1.5px 1.5px gray;
 }
 
 h2 {
