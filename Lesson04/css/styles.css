@@ -1,0 +1,128 @@
+/*
+The Color Palette.
+
+https://coolors.co/5b2333-f7f4f3-564d4a-f24333-ba1b1d
+
+--old-mauve: #5b2333ff;
+--isabelline: #f7f4f3ff;
+--dark-liver: #564d4aff;
+--cinnabar: #f24333ff;
+--carnelian: #ba1b1dff;
+
+*/
+
+/* The Global Styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 450;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Global Shared Declaration Block */
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 2;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile */
+
+header {
+    background: #5b2333ff;
+    color: #f7f4f3ff;
+}
+
+/* Projects */
+
+.projects {
+    background: #f7f4f3ff;
+}
+
+.projects a {
+    color: #ba1b1dff;
+}
+
+.projects .button {
+    color: #f7f4f3ff;
+    background: #ba1b1dff;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.projects .button:hover {
+    background: rgba(36,52,74,80%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience */
+
+.work-experience {
+    background: #f24333ff;
+}
+
+/* Education */
+
+/* Contact */
+
+footer {
+    background: #564d4aff;
+    color: #f7f4f3ff;
+}
